@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pokemon-api-vite-react/static/css/main.4b657443.css",
-    "main.js": "/pokemon-api-vite-react/static/js/main.2a3adc6f.js",
+    "main.js": "/pokemon-api-vite-react/static/js/main.a8ebbb8f.js",
     "static/js/453.78b87f59.chunk.js": "/pokemon-api-vite-react/static/js/453.78b87f59.chunk.js",
     "index.html": "/pokemon-api-vite-react/index.html",
     "main.4b657443.css.map": "/pokemon-api-vite-react/static/css/main.4b657443.css.map",
-    "main.2a3adc6f.js.map": "/pokemon-api-vite-react/static/js/main.2a3adc6f.js.map",
+    "main.a8ebbb8f.js.map": "/pokemon-api-vite-react/static/js/main.a8ebbb8f.js.map",
     "453.78b87f59.chunk.js.map": "/pokemon-api-vite-react/static/js/453.78b87f59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b657443.css",
-    "static/js/main.2a3adc6f.js"
+    "static/js/main.a8ebbb8f.js"
   ]
 }
