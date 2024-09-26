@@ -1,0 +1,41 @@
+.container {
+    margin-top: 20px; /* Margen superior para la disposición */
+  }
+  
+  .card {
+    background-color: #e0e7ff; /* Color azul suave */
+    border: 2px solid #3b4cca; /* Borde del color del tema */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.2s; /* Transición para efecto hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño en hover */
+  }
+  
+  .card-img-top {
+    border-radius: 10px 10px 0 0; /* Bordes redondeados en la parte superior */
+    height: 150px; /* Altura fija para las imágenes */
+    object-fit: contain; /* Asegura que la imagen mantenga su relación de aspecto */
+  }
+  
+  .card-body {
+    padding: 15px; /* Espaciado en el cuerpo de la card */
+  }
+  
+  .card-title {
+    font-weight: bold; /* Texto en negrita */
+    color: #3b4cca; /* Color del texto */
+    text-transform: capitalize; /* Capitaliza los nombres de Pokémon */
+  }
+  
+  .text-decoration-none {
+    text-decoration: none; /* Elimina subrayado de enlaces */
+    color: inherit; /* Hereda el color del padre */
+  }
+  
+  .text-decoration-none:hover {
+    color: #ffcb05; /* Color amarillo al pasar el mouse */
+  }
+  

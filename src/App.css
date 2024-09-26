@@ -1,38 +1,50 @@
-.App {
+/* pokemonStyles.css */
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Pokemon Solid', sans-serif; /* Fuente inspirada en Pokémon */
+}
+
+.app-container {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  padding: 20px;
+  background: linear-gradient(45deg, #ffcb05, #3b4cca);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #3b4cca;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-footer {
+  background-color: #3b4cca; /* Color de fondo */
+  color: #ffcb05; /* Color del texto */
+  padding: 10px; /* Espaciado interno */
+  position: fixed; /* Fijo en la parte inferior */
+  bottom: 0; /* Posiciona en la parte inferior */
+  width: 100%; /* Ocupa el 100% del ancho */
+  text-align: center; /* Centra el texto */
+  margin-top: 150px; /* Espacio superior para separar del contenido */
+  z-index: 1000; /* Asegura que el footer esté por encima de otros elementos */
+}
+
+
+.pokemon-logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #ffcb05;
+}
+
+a:hover {
+  color: #ffde5d;
+  text-decoration: none;
 }

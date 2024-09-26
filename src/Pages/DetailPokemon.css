@@ -1,0 +1,61 @@
+.pokemon-detail-container {
+    display: flex;
+    align-items: flex-start; /* Alinea verticalmente al inicio */
+    justify-content: center; /* Centra horizontalmente el contenedor */
+    background: transparent;
+    padding: 10px; /* Reducido el padding */
+    border-radius: 15px;
+    color: #fff;
+    height: auto; /* Cambiado a auto para ajustar al contenido */
+}
+
+.pokemon-image {
+    flex: 1; /* Ocupa la mitad izquierda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-image img {
+    height: 300px; /* Ajustado la altura de la imagen */
+    width: auto; /* Mantiene la relación de aspecto */
+    object-fit: contain; /* Asegura que la imagen mantenga su relación de aspecto */
+}
+
+.pokemon-info {
+    flex: 1; /* Ocupa la mitad derecha */
+    padding: 10px; /* Reducido el padding */
+    overflow-y: auto; /* Permite scroll si el contenido es muy largo */
+}
+
+.type-badge {
+    padding: 4px 8px; /* Reducido el padding */
+    border-radius: 12px;
+    margin-right: 5px;
+}
+
+.bg-normal {
+    background-color: #a8a77a; /* Normal */
+}
+
+.bg-fire {
+    background-color: #ee8130; /* Fire */
+}
+
+.bg-water {
+    background-color: #6390f0; /* Water */
+}
+
+.bg-grass {
+    background-color: #7ac74c; /* Grass */
+}
+
+/* Estilos para las estadísticas y movimientos */
+.pokemon-info ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+.movements .badge {
+    margin-right: 5px;
+}

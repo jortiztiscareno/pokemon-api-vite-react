@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import AppRoutes from "./routes";
+import './App.css'; // Importa el archivo de estilos personalizados
+import 'bootstrap/dist/css/bootstrap.min.css'; // Importa Bootstrap
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+   <>
+    <div className="app-container" style={{marginBottom:'50px'}}>
+      <header>
+        <img 
+          src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" 
+          alt="Pokémon Logo" 
+          className="pokemon-logo" 
+        />
       </header>
+      
+      {/* Aquí irán las rutas de la aplicación */}
+      <AppRoutes />
+
+    
     </div>
+      <footer className="app-footer" >
+      <p>Pokédex App © 2024 | Juan Carlos Ortiz Tiscareño</p>
+    </footer></>
   );
 }
 
